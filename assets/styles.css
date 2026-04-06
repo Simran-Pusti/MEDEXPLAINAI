@@ -1,0 +1,82 @@
+/* App background */
+[data-testid="stAppViewContainer"] {
+    background-color: #f5f3ff !important;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #5b21b6 !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #7c3aed !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+/* Card effect */
+div[data-testid="stVerticalBlock"] > div {
+    background: #ffffff !important;
+    padding: 15px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(124,58,237,0.15) !important;
+}
+
+/*  Sidebar background */
+section[data-testid="stSidebar"] {
+    background-color: #ede9fe !important;
+}
+
+/*  Sidebar text */
+section[data-testid="stSidebar"] * {
+    color: #4c1d95 !important;
+}
+
+/*  Sidebar selected item (highlight) */
+section[data-testid="stSidebar"] .css-1d391kg {
+    background-color: #c4b5fd !important;
+    border-radius: 8px !important;
+}
+
+/* Remove Streamlit UI */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+
+/* 📱 MOBILE RESPONSIVE (only additions below) */
+@media (max-width: 768px) {
+
+    /* Reduce card padding */
+    div[data-testid="stVerticalBlock"] > div {
+        padding: 10px !important;
+    }
+
+    /* Smaller headings */
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+    }
+
+    /* Smaller text */
+    p, li {
+        font-size: 13px !important;
+    }
+
+    /* Full width buttons */
+    .stButton > button {
+        width: 100% !important;
+        font-size: 13px !important;
+    }
+
+    /* Sidebar text smaller */
+    section[data-testid="stSidebar"] * {
+        font-size: 13px !important;
+    }
+}
