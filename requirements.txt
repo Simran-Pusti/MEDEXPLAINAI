@@ -12,3 +12,4 @@ lightgbm==4.6.0
 dowhy==0.14
 causal-learn==0.1.4.5
 dice-ml==0.12
+reportlab==3.6.13
