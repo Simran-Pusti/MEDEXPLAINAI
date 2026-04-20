@@ -2,7 +2,7 @@
 ### Causality Aware Explainable AI Recommendation using Counterfactual Reasoning 
 ## Live Application
 **Deployed App:** https://medexplainai-db5vrw6qyp27frkc69kq4b.streamlit.app/ 
-## 📊 Sample Dataset
+## Sample Dataset
 You can use this sample dataset to test the project:
 diabetes.csv
 kidney_large.csv
@@ -10,7 +10,7 @@ lung_large.csv
 
 ### How to Use
 - Download the sample dataset  
-- Upload it in the application (if upload feature exists)  
+- Upload it in the application  
 - Or use it as reference for manual input  
 
 ###  Note
