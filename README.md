@@ -2,6 +2,19 @@
 ### Causality Aware Explainable AI Recommendation using Counterfactual Reasoning 
 ## Live Application
 **Deployed App:** https://medexplainai-db5vrw6qyp27frkc69kq4b.streamlit.app/ 
+## 📊 Sample Dataset
+You can use this sample dataset to test the project:
+diabetes.csv
+kidney_large.csv
+lung_large.csv
+
+### How to Use
+- Download the sample dataset  
+- Upload it in the application (if upload feature exists)  
+- Or use it as reference for manual input  
+
+###  Note
+Ensure that input data follows the same format as the sample file.
 
 ## Problem Statement
 Traditional machine learning models in healthcare often act as **black boxes**, providing predictions without explanations. This lack of transparency reduces trust among doctors and patients.
